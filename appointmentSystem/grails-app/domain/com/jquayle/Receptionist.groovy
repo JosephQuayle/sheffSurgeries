@@ -8,6 +8,11 @@ class Receptionist {
 	String recepPassword
 	String recepPhone
 
+	String toString(){
+		return recepName;
+	}
+	static hasOne = [surgery:Surgery]
+
     static constraints = {
 	/* blank for strings, nullable for numbers */
 	recepName blank: false;

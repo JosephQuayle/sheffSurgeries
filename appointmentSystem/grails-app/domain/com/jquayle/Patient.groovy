@@ -9,10 +9,16 @@ class Patient {
 	int patientID
 	Date dateRegistered
 	String patientPhone
-	
+
+	String toString(){
+		return patientName;
+	}
+	static hasMany = [prescriptions:Prescription, doctors:Doctor]
+	static hasOne = [surgery:Surgery, appointment:Appointment]
 
     static constraints = {
 	/* blank for strings, nullable for numbers */
+		
 	patientName blank: false;
 	patientAddress blank: false;
 	patientResidence blank: false;

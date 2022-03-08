@@ -7,6 +7,12 @@ class Appointment {
 	int appDurationInMins
 	String roomNumber
 	
+
+	String toString(){
+		return appointmentDate;
+	}
+	static hasOne = [surgery:Surgery, doctor:Doctor, patient:Patient]
+
     static constraints = {
 	/* blank for strings, nullable for numbers */
 	appointmentDate blank: false;

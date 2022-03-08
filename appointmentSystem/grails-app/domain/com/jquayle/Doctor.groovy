@@ -11,6 +11,12 @@ class Doctor {
 	String doctorPhone
 	String bio
 
+	String toString(){
+		return fullName;
+	}
+	static hasOne = [surgery:Surgery]
+	static hasMany = [patients:Patient, appointments:Appointment, nurses:Nurse, prescriptions:Prescription]
+
     static constraints = {
 	/* blank for strings, nullable for numbers */
 	fullName blank: false;

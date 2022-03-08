@@ -9,6 +9,12 @@ class Surgery {
 	String description
 	String openingTime
 
+	String toString(){
+		return name;
+	}
+	
+	static hasMany = [doctors:Doctor, nurses:Nurse, receptionists:Receptionist, patients:Patient, appopintments:Appointment]
+
 
     static constraints = {
  	/* blank for strings, nullable for numbers */
