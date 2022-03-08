@@ -13,6 +13,7 @@ class Nurse {
 	}
 	static hasOne = [surgery:Surgery]
 	static hasMany = [doctors:Doctor]
+	
 
     static constraints = {
 	/* blank for strings, nullable for numbers */

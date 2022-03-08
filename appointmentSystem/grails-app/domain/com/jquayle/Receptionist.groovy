@@ -12,6 +12,7 @@ class Receptionist {
 		return recepName;
 	}
 	static hasOne = [surgery:Surgery]
+	
 
     static constraints = {
 	/* blank for strings, nullable for numbers */

@@ -13,6 +13,7 @@ class Prescription {
 		return prescripNumber;
 	}
 	static hasOne = [doctor:Doctor, patient:Patient]
+	
 
     static constraints = {
 	/* blank for strings, nullable for numbers */
