@@ -11,7 +11,7 @@ class Receptionist {
 	String toString(){
 		return recepName;
 	}
-	static hasOne = [surgery:Surgery]
+	static belongsTo = [surgery:Surgery]
 	
 
     static constraints = {

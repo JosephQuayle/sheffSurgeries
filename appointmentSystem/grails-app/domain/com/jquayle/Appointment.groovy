@@ -11,8 +11,8 @@ class Appointment {
 	String toString(){
 		return appointmentDate;
 	}
-	static belongsTo = [patient:Patient]
-	static hasOne = [surgery:Surgery, doctor:Doctor]
+	
+	static belongsTo = [surgery:Surgery, doctor:Doctor, patient:Patient]
 	
 
     static constraints = {

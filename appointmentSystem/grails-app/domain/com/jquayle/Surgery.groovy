@@ -13,7 +13,7 @@ class Surgery {
 		return name;
 	}
 	
-	static hasMany = [doctors:Doctor, nurses:Nurse, receptionists:Receptionist, patients:Patient, appopintments:Appointment]
+	static hasMany = [doctors:Doctor, nurses:Nurse, receptionists:Receptionist, appopintments:Appointment, patients:Patient]
 
 
     static constraints = {

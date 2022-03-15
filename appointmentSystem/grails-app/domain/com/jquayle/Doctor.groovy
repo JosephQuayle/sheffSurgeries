@@ -14,7 +14,7 @@ class Doctor {
 	String toString(){
 		return fullName;
 	}
-	static hasOne = [surgery:Surgery]
+	static belongsTo = [surgery:Surgery]
 	static hasMany = [appointments:Appointment, prescriptions:Prescription, patients:Patient, nurses:Nurse]
 
     static constraints = {

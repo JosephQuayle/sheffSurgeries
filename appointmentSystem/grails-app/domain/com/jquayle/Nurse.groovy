@@ -11,8 +11,7 @@ class Nurse {
 	String toString(){
 		return nurseName;
 	}
-	static hasOne = [surgery:Surgery]
-	static hasMany = [doctors:Doctor]
+	static belongsTo = [surgery:Surgery, doctor:Doctor]
 	
 
     static constraints = {
