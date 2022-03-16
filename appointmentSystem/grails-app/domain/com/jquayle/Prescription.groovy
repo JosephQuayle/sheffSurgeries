@@ -13,7 +13,6 @@ class Prescription {
 		return prescripNumber;
 	}
 	static belongsTo = [doctor:Doctor, patient:Patient]
-	
 
     static constraints = {
 	/* blank for strings, nullable for numbers */
