@@ -38,15 +38,16 @@ pre {
 }
 .grails-icon img {
     width: 40px;
+    
 
 }
 .navbar-dark, .navbar-static-top {
-    background-color: #424649;
+    background-color: #da791f;
     border: 0px;
 }
 a.navbar-brand {
     color: white !important;
-    font-size: 19px !important;
+    font-size: 25px !important;
 }
 .navbar-dark .navbar-nav>.active>a, .navbar-dark .navbar-nav>.active>a:hover, .navbar-dark .navbar-nav>.active>a:focus {
     background-color: transparent;
@@ -1049,4 +1050,20 @@ html, body, .st-container, .st-pusher, .st-content {
     .presentations .img.screenshot, .video .metadata {
         float: none;
     }
+
 }
+
+
+/* MY CSS CHANGES */
+.navbar-brand{
+    width: 20%;
+}
+
+.navbar-brand img{
+    width: 50%;
+}
+
+.navbar-dark, .navbar-static-top {
+    background-color: #b3b3b3;
+}
+
