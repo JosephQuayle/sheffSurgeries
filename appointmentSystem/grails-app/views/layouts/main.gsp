@@ -16,18 +16,9 @@
 
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark navbar-static-top" role="navigation">
+ <nav class="navbar navbar-expand-lg navbar-dark navbar-static-top" role="navigation">
     <div class="container-fluid">
         <a class="navbar-brand" href="/#"><asset:image src="grails.svg" alt="Grails Logo"/></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" aria-expanded="false" style="height: 0.8px;" id="navbarContent">
-            <ul class="nav navbar-nav ml-auto">
-                <g:pageProperty name="page.nav"/>
-            </ul>
-        </div>
     </div>
 </nav>
 
@@ -37,17 +28,17 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col">
-            <asset:image src="sheffsurg1.svg"/>
+            <asset:image src="doc.png"/>
                 <h3 class="best-doctors"> Best Doctors </h3>
                 <p>Here ar sheffSurgeries, we have the best doctors in the UK. All of them are ready to help you in any way possible. Dont hesitate to make an appointment!</p>
             </div>
             <div class="col">
-            <asset:image src="sheffsurg1.svg"/>
+            <asset:image src="shorttime.jpg"/>
                 <h3 class="short-times"> Short Waiting Times </h3>
                 <p>Not only do we have the best Doctors and Nurses, we also have the best waiting times!</p>
             </div>
             <div class="col">
-                <asset:image src="sheffsurg1.svg"/>
+                <asset:image src="trustworthy.png"/>
                 <h3 class="trustworthy">Trustworthy</h3>
                 <p>You will never have to worry about your prescription being delayed, changed by accident, cancelled for no reason, etc. We pride ourselves on never disappointing our patients.</p>
             </div>

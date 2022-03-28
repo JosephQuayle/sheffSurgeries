@@ -596,3 +596,17 @@ img.grails-logo {
 .best-doctors, .short-times, .trustworthy{
     font-weight: bold;
 }
+
+.footer{
+    background-color: #f1843bda;
+    /* background-color: rgba(255, 123, 0, 0.438); */
+}
+
+.footer h3, p{
+    color: black;
+}
+
+.footer p{
+    font-size: 15px;
+    padding-top: 10px;
+}

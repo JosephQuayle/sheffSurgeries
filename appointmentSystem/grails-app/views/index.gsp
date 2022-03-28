@@ -51,13 +51,10 @@
 <div id="content" role="main">
     <div class="container">
         <section class="row colset-2-its">
-            <h1>Welcome to Grails</h1>
+            <h1>Welcome to sheffSurgeries</h1>
 
             <p>
-                Congratulations, you have successfully started your first Grails application! At the moment
-                this is the default page, feel free to modify it to either redirect to a controller or display
-                whatever content you may choose. Below is a list of controllers that are currently deployed in
-                this application, click on each to execute its default action:
+                Here at sheffSurgeries, nothing is more important to us than our patients. We do everything in our power to allow our patients to get the best treatment possible. This includes making sure our doctors and nurses are the best and genuinely care. 
             </p>
 
             <div id="controllers" role="navigation">
