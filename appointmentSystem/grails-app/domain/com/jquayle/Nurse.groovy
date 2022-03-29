@@ -12,7 +12,7 @@ class Nurse {
 		return nurseName;
 	}
 	static belongsTo = [surgery:Surgery, doctor:Doctor]
-	
+	//static hasMany = [doctors:Doctor]
 
     static constraints = {
 	/* blank for strings, nullable for numbers */

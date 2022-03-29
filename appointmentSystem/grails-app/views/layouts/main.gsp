@@ -19,6 +19,7 @@
  <nav class="navbar navbar-expand-lg navbar-dark navbar-static-top" role="navigation">
     <div class="container-fluid">
         <a class="navbar-brand" href="/#"><asset:image src="grails.svg" alt="Grails Logo"/></a>
+        <g:loginToggle/>
     </div>
 </nav>
 
