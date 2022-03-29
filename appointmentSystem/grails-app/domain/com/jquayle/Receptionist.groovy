@@ -4,8 +4,8 @@ class Receptionist {
 
 	String recepName
 	String recepEmail
-	String recepUsername
-	String recepPassword
+	String username
+	String password
 	String recepPhone
 
 	String toString(){
@@ -18,8 +18,8 @@ class Receptionist {
 	/* blank for strings, nullable for numbers */
 	recepName blank: false;
 	recepEmail blank: false, email: true;
-	recepUsername blank: false;
-	recepPassword blank: false;
+	username blank: false;
+	password blank: false;
 	recepPhone blank: false, size: 9..11;
     }
 }
