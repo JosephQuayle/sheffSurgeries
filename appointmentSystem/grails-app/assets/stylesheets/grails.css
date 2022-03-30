@@ -1067,3 +1067,9 @@ html, body, .st-container, .st-pusher, .st-content {
     background-color: #f1843bda;
 }
 
+#logins{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30rem;
+}
+

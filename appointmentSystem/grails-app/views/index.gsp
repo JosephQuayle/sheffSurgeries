@@ -48,11 +48,16 @@
     </div> --%>
 </div>
 
+<div id="logins" class="row">
+<g:loginToggleMainRec/>
+ <g:loginToggleMainDoc/> 
+</div>
+
 <div id="content" role="main">
     <div class="container">
         <section class="row colset-2-its">
             <h1>Welcome to sheffSurgeries</h1>
-
+ 
             <p>
                 Here at sheffSurgeries, nothing is more important to us than our patients. We do everything in our power to allow our patients to get the best treatment possible. This includes making sure our doctors and nurses are the best and genuinely care. 
             </p>

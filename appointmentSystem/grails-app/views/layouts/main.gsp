@@ -22,7 +22,7 @@
 
     </div>
 </nav>
- <g:loginToggle/> 
+ 
 <g:layoutBody/>
 
 

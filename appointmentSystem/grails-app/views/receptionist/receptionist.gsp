@@ -6,6 +6,9 @@
     <asset:stylesheet src="receptionist.css"/>
 </head>
 <body>
+    <div id="logins" class="row">
+        <g:loginToggleRec/>
+    </div>
     <div id="content" role="main">
         <div class="row">
             <div class="patients">
