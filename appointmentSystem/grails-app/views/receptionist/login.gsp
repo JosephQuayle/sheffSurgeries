@@ -3,6 +3,7 @@
 <head>
     <meta name="layout" content="main"/>
     <title>SheffSurgeries Login</title>
+    <asset:stylesheet src="login.css"/>
 </head>
 <body>
 
@@ -19,18 +20,18 @@
             <label for="username">User Name:</label>
           </td>
           <td class="value">
-            <input type="text" id="username" name="username" value="">
+            <input type="text" id="username" name="username" placeholder="e.g Ricky01" value="">
           </td></tr>
         <tr class="prop">
           <td class="name">
             <label for="password">Password:</label>
           </td>
           <td class="value">
-            <input type="password" id="password" name="password" value="">
+            <input type="password" id="password" name="password" placeholder="type your password" value="">
           </td></tr>
         <tr><td></td>
           <td>
-            <input type="submit" value="login"/>
+            <input class="btn link" type="submit" value="Login"/>
           </td></tr>
     </table>
 </g:form>

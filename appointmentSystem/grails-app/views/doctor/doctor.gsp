@@ -14,21 +14,21 @@
             <div class="prescriptions">
                 <h3> Prescription Management </h3>
                 <p></p>
-                <button type="button" class="btn btn-success">
+                <button type="button" class="btn">
                 <g:link controller="prescription" class="link" action="create">Add Prescription</g:link>
                 </button>
             </div>
             <div class="patients">
                 <h3> Patient Management </h3>
                 <p></p>
-                <button type="button" class="btn btn-success">
+                <button type="button" class="btn">
                 <g:link controller="patient" class="link" action="create">Add Patient</g:link>
                 </button>
             </div>
             <div class="appointments">
                 <h3> Appointment Management </h3>
                 <p></p>
-                <button type="button" class="btn btn-success">
+                <button type="button" class="btn">
                 <g:link controller="appointment" class="link" action="create">Add Appointment</g:link>
                 </button>
             </div>

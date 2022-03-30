@@ -11,12 +11,12 @@ class AppointmentSystemTagLib {
 	out << "<span style=float: left; padding-left: 200px;margin-left:400px'>"
 	out << "Welcome ${session.user}.<br>"
 	out << "</span><span style='float:right;margin-right:200px'>"
-	out << "<a href='${createLink(controller:'Receptionist', action:'logout')}'<button type='button' class='btn btn-success'>"
+	out << "<a href='${createLink(controller:'Receptionist', action:'logout')}'<button type='button' class='btn link'>"
 	out << "Logout </button></a></span>"
 	}else{
 	
 	out << "<span style='float:right;margin-right:200px'>"
-	out << "<a href='${createLink(controller:'Receptionist', action:'login')}'<button type='button' class='btn btn-success'>"
+	out << "<a href='${createLink(controller:'Receptionist', action:'login')}'<button type='button' class='btn link'>"
 	out << "Receptionist Login </button> </a></span>"
 	}
 
@@ -31,12 +31,12 @@ class AppointmentSystemTagLib {
 	out << "<span style=float: left; padding-left: 200px;margin-left:400px'>"
 	out << "Welcome ${session.user1}.<br>"
 	out << "</span><span style='float:right;margin-right:200px'>"
-	out << "<a href='${createLink(controller:'Doctor', action:'logout')}'<button <button type='button' class='btn btn-success'>"
+	out << "<a href='${createLink(controller:'Doctor', action:'logout')}'<button <button type='button' class='btn link'>"
 	out << "Logout </button></a></span>"
 	}else{
 	
 	out << "<span style='float:right;margin-right:200px'>"
-	out << "<a href='${createLink(controller:'Doctor', action:'login')}'<button type='button' class='btn btn-success'>"
+	out << "<a href='${createLink(controller:'Doctor', action:'login')}'<button type='button' class='btn link'>"
 	out << "Doctor Login </button></a></span>"
 	}
 
@@ -51,12 +51,12 @@ class AppointmentSystemTagLib {
 	out << "<span style=float: left; padding-left: 200px;margin-left:400px'>"
 	out << "Welcome ${session.user}.<br>"
 	out << "</span><span style='float:right;margin-right:200px'>"
-	out << "<a href='${createLink(controller:'Receptionist', action:'logout')}'<button type='button' class='btn btn-success'>"
+	out << "<a href='${createLink(controller:'Receptionist', action:'logout')}'<button type='button' class='btn link'>"
 	out << "  Logout</button></a></span>"
 	}else{
 	
 	out << "<span style='float:right;margin-right:200px'>"
-	out << "<a href='${createLink(controller:'Receptionist', action:'login')}'<button type='button' class='btn btn-success'>"
+	out << "<a href='${createLink(controller:'Receptionist', action:'login')}'<button type='button' class='btn link'>"
 	out << "Receptionist Login </button></a></span>"
 	}
 
@@ -70,13 +70,13 @@ class AppointmentSystemTagLib {
 	if (request.getSession(false) && session.user1){
 	out << "<span style=float: left; padding-left: 200px;margin-left:400px'>"
 	out << "Welcome ${session.user1}.<br>"
-	out << "</span><span style='float:right;margin-right:200px; text-decoration:none'>"
-	out << "<a href='${createLink(controller:'Doctor', action:'logout')}'<button type='button' class='btn btn-success'>"
+	out << "</span><span style='float:right;margin-right:200px;'>"
+	out << "<a href='${createLink(controller:'Doctor', action:'logout')}'<button type='button' class='btn link'>"
 	out << "  Logout</button></a></span>"
 	}else{
 	
 	out << "<span style='float:right;margin-right:200px'>"
-	out << "<a href='${createLink(controller:'Doctor', action:'login')}'<button type='button' class='btn btn-success'>"
+	out << "<a href='${createLink(controller:'Doctor', action:'login')}'<button type='button' class='btn link'>"
 	out << "Doctor Login </button></a></span>"
 	}
 
