@@ -600,6 +600,11 @@ img.grails-logo {
 .footer{
     background-color: #f1843bda;
     /* background-color: rgba(255, 123, 0, 0.438); */
+    padding-bottom: 5rem;
+}
+
+.container-fluid{
+    width: 80%;
 }
 
 .footer h3, p{
@@ -609,4 +614,8 @@ img.grails-logo {
 .footer p{
     font-size: 15px;
     padding-top: 10px;
+}
+
+.navbar-brand{
+    margin-left: -1rem;
 }

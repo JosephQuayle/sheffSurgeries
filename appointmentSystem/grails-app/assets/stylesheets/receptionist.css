@@ -5,7 +5,7 @@
 
 .row{
     justify-content: space-around;
-
+    padding-top: 3rem;
 }
 
 .btn{
@@ -29,4 +29,8 @@
 
 #logins{
     padding-left: 10.5rem;
+}
+
+#content{
+    padding-bottom: 8.8rem;
 }
