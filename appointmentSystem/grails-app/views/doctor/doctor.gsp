@@ -17,6 +17,9 @@
                 <button type="button" class="btn">
                 <g:link controller="prescription" class="link" action="create">Add Prescription</g:link>
                 </button>
+                 <button type="button" class="btn">
+                <g:link controller="prescription" class="link" action="advSearch1">Search Prescriptions</g:link>
+                </button>
             </div>
             <div class="patients">
                 <h3> Patient Management </h3>

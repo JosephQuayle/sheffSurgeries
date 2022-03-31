@@ -3,9 +3,9 @@ package com.jquayle
 class Prescription {
 
 	String pharmacyName
-	int prescripNumber
+	String prescripNumber
 	String medicine
-	int totalCost
+	String totalCost
 	Date dateIssued
 	Boolean patientPaying
 
