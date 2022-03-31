@@ -17,6 +17,10 @@
                 <button type="button" class="btn">
                 <g:link controller="patient" class="link" action="create">Add Patient</g:link>
                 </button>
+                <button type="button" class="btn">
+                <g:link controller="patient" class="link" action="advSearch">Search Patients</g:link>
+                </button>
+                 
             </div>
             <div class="doctors">
                 <h3> Doctor Management </h3>
@@ -40,6 +44,7 @@
                 </button>
             </div>
         </div>
+       
     </div>
 </body>
 </html>
