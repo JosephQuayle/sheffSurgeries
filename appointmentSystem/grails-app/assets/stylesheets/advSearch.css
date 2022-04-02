@@ -1,4 +1,7 @@
-
+.search-form{
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+}
 
 table{
     width: 20%;
@@ -10,10 +13,10 @@ table{
               0 8px 8px rgba(0,0,0,0.11), 
               0 16px 16px rgba(0,0,0,0.11), 
               0 32px 32px rgba(0,0,0,0.11);
+              
 }
 
-form{
-    padding-top: 9.15rem;
-    padding-bottom: 9.15rem;
 
-} 
+h1, legend{
+    text-align: center;
+}

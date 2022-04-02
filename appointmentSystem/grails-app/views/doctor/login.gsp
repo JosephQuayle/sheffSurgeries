@@ -11,6 +11,7 @@
     <div class="message">${flash.message}</div>
 </g:if>
 
+
 <g:form action="validate">
  <input type="hidden" name="cName" value="${cName}">
  <input type="hidden" name="aName" value="${aName}">
@@ -35,5 +36,6 @@
           </td></tr>
     </table>
 </g:form>
+
 
 </body>

@@ -2,10 +2,11 @@
 <html>
 <head>
     <meta name="layout" content="main"/>
+    <asset:stylesheet src="advSearch.css"/>
 </head>
 <body>
 
-<div>
+<div class="search-form">
     <h1>Patient Search</h1>
         <formset>
                 <legend> Advanced Search for Prescriptions</legend>
@@ -13,15 +14,15 @@
                     <g:form action="advResults1">
                         <tr>
                             <td>Medicine Name</td>
-                            <td><g:textField name="medicine"/></td>
+                            <td><g:textField name="medicine" placeholder="e.g Ibuprofen"/></td>
                         </tr>
                         <tr>
                             <td>Total Cost</td>
-                            <td><g:textField name="totalCost"/></td>
+                            <td><g:textField name="totalCost" placeholder="e.g 3"/></td>
                         </tr>
                         <tr>
                             <td>Prescription Number</td>
-                            <td><g:textField  name="prescripNumber" /></td>
+                            <td><g:textField  name="prescripNumber" placeholder="e.g P1" /></td>
                         </tr>
                         <tr>
                             <td>Query Type:</td>

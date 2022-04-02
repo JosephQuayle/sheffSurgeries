@@ -17,9 +17,9 @@ class Prescription {
     static constraints = {
 	/* blank for strings, nullable for numbers */
 	pharmacyName blank: false;
-	prescripNumber nullable: false;
+	prescripNumber blank: false;
 	medicine blank: false;
-	totalCost nullable: false;
+	totalCost blank: false;
 	dateIssued blank: false;
     }
 }

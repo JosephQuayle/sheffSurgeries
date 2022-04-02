@@ -2,10 +2,11 @@
 <html>
 <head>
     <meta name="layout" content="main"/>
+    <asset:stylesheet src="advSearch.css"/>
 </head>
 <body>
 
-<div>
+<div class="search-form">
     <h1>Patient Search</h1>
         <formset>
                 <legend> Advanced Search for Patients</legend>
@@ -13,15 +14,15 @@
                     <g:form action="advResults">
                         <tr>
                             <td>Name</td>
-                            <td><g:textField name="patientName"/></td>
+                            <td><g:textField name="patientName" placeholder="e.g Derek Marple"/></td>
                         </tr>
                         <tr>
                             <td>Address</td>
-                            <td><g:textField name="patientAddress"/></td>
+                            <td><g:textField name="patientAddress" placeholder="e.g 50 Division Street"/></td>
                         </tr>
                         <tr>
                             <td>Phone</td>
-                            <td><g:textField name="patientPhone"/></td>
+                            <td><g:textField name="patientPhone" placeholder="e.g 07564736264"/></td>
                         </tr>
                         <tr>
                             <td>Query Type:</td>
