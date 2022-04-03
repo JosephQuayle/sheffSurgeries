@@ -85,9 +85,9 @@ class AppointmentSystemTagLib {
 	}
 
 	def patientCount={
-		out << "<div class='patient-count'>"
-		out << "<p>There are ${Patient.count()} patients in total on the system.</p>"
-		out << "</div"
+		
+		out << "<p>There are <strong>${Patient.count()}</strong> patients in total on the system.</p>"
+		
 	}
 
 }
