@@ -62,7 +62,7 @@
                 Here at sheffSurgeries, nothing is more important to us than our patients. We do everything in our power to allow our patients to get the best treatment possible. This includes making sure our doctors and nurses are the best and genuinely care. 
             </p>
 
-            <%-- <div id="controllers" role="navigation">
+            <div id="controllers" role="navigation">
                 <h2>Available Controllers:</h2>
                 <ul>
                     <g:each var="c" in="${grailsApplication.controllerClasses.sort { it.fullName } }">
@@ -71,7 +71,7 @@
                         </li>
                     </g:each>
                 </ul>
-            </div> --%>
+            </div> 
         </section>
     </div>
 </div>

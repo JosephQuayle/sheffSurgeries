@@ -13,6 +13,7 @@
         <div class="row">
             <div class="patients">
                 <h3> Patient Management </h3>
+                <g:patientCount/>
                 <p></p>
                 <button type="button" class="btn">
                 <g:link controller="patient" class="link" action="create">Add Patient</g:link>
