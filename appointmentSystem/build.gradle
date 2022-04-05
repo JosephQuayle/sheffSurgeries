@@ -87,6 +87,10 @@ bootRun {
     systemProperty springProfilesActive, System.getProperty(springProfilesActive)
 }
 
+//for heroku
+task stage(dependsOn: ['build', 'clean'])
+build.mustRunAfter clean
+
 tasks.withType(GroovyCompile) {
     configure(groovyOptions) {
         forkOptions.jvmArgs = ['-Xmx1024m']
